@@ -1,0 +1,57 @@
+body
+{
+    background-color: #30475e; /*Background color of the website*/
+    color: white;    /*Color of the font*/
+    font-family: 'Calibri'; /*Global font of the website*/
+}
+
+.top
+{
+    text-align: center; /*Align the text of the top part in center*/
+    font-size: 15px; /*Font size of the top*/
+}
+
+.PersonalProfile
+{
+    margin-top: 4%; /*Space between the previous paragraph*/
+    margin-left: 3%; /*Space at the left of the page*/
+    font-size: 18px; /*Font size of the Personal Profile*/
+}
+
+.EducationandTraining
+{
+    margin-top: 4%; /*Space between the previous paragraph*/
+    margin-left: 3%; /*Space at the left of the page*/
+    font-size: 18px; /*Font size of the Educationand Training*/
+}
+
+.WorkExperience
+{
+    margin-top: 4%; /*Space between the previous paragraph*/
+    margin-left: 3%; /*Space at the left of the page*/
+    font-size: 18px; /*Font size of the Work Experience*/
+}
+
+.InterestsandHoobies
+{
+    margin-top: 4%; /*Space between the previous paragraph*/
+    margin-left: 3%; /*Space at the left of the page*/
+    font-size: 18px; /*Font size of the Interests and Hoobies*/
+}
+
+.Skills
+{
+    margin-top: 4%; /*Space between the previous paragraph*/
+    margin-left: 3%; /*Space at the left of the page*/
+    font-size: 18px; /*Font size of the Skills*/
+}
+
+:root /*Remove scrollbar on Firefox*/
+{ 
+    scrollbar-width: none !important 
+}
+
+body::-webkit-scrollbar /*Remove scrollbar on Chrome and Edge*/
+{ 
+    width: 0 !important
+}
